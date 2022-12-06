@@ -1,7 +1,7 @@
 pipeline {
     agent any
     
-    enviroment {
+    environment {
 
     	PASS= credentials('DOCKER_PASS')
 
